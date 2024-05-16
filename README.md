@@ -103,8 +103,9 @@ Request Body:
     "password": "string"
 }
 Response:
-json
-Copy code
+``` 
+``` json
+
 {
     "message": "User registered successfully"
 }
@@ -112,23 +113,26 @@ User Login
 URL: /login
 Method: POST
 Request Body:
-json
-Copy code
+``` 
+``` json
+
 {
     "username": "string",
     "password": "string"
 }
-Response:
-json
-Copy code
+``` 
+### Response:
+``` json
+
 {
     "token": "string"
 }
+``` 
 File Upload
 URL: /upload-file
 Method: POST
 Headers:
-```
+
 ```json
 
 {
@@ -159,6 +163,7 @@ Copy code
 {
     "sentiment": "positive" | "negative"
 }
+```
 Code Explanation
 Node.js (index.js)
 Dependencies: The necessary modules are imported, including Express, Mongoose, Multer, JWT, Passport, bcrypt, and Axios.
@@ -189,7 +194,7 @@ Log in with the registered user via the /login endpoint and obtain the JWT token
 Upload a file via the /upload-file endpoint using the obtained JWT token.
 Analyze sentiment via the /analyze-sentiment endpoint.
 Using curl
-```
+
 Register a new user:
 
 ```bash
