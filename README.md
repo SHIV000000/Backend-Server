@@ -141,17 +141,20 @@ Headers:
 Form Data:
 file: File to be uploaded
 Response:
-json
-Copy code
+```
+```json
+
 {
     "message": "File uploaded successfully"
 }
-Sentiment Analysis
+```
+### Sentiment Analysis
 URL: /analyze-sentiment
 Method: POST
 Request Body:
-json
-Copy code
+
+```json
+
 {
     "text": "string"
 }
@@ -164,7 +167,8 @@ Copy code
     "sentiment": "positive" | "negative"
 }
 ```
-Code Explanation
+### Code Explanation
+
 Node.js (index.js)
 Dependencies: The necessary modules are imported, including Express, Mongoose, Multer, JWT, Passport, bcrypt, and Axios.
 MongoDB Connection: Connects to the MongoDB database.
