@@ -143,9 +143,10 @@ Method: POST
 {
     "Authorization": "Bearer <token>"
 }
+```
 Form Data:
 file: File to be uploaded
-```
+
 ### Response:
 
 ```json
