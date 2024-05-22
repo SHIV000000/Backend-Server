@@ -21,6 +21,7 @@ backend-server/
 │   └── vectorizer.pkl
 │
 └── README.md
+
 ```
 ## Prerequisites:
 ```
@@ -102,18 +103,20 @@ Request Body:
     "username": "string",
     "password": "string"
 }
+```
 Response:
-``` 
+ 
 ``` json
 
 {
     "message": "User registered successfully"
 }
+``` 
 User Login
 URL: /login
 Method: POST
 Request Body:
-``` 
+
 ``` json
 
 {
@@ -122,6 +125,7 @@ Request Body:
 }
 ``` 
 ### Response:
+
 ``` json
 
 {
@@ -131,7 +135,8 @@ Request Body:
 File Upload
 URL: /upload-file
 Method: POST
-Headers:
+
+### Headers:
 
 ```json
 
@@ -140,8 +145,9 @@ Headers:
 }
 Form Data:
 file: File to be uploaded
-Response:
 ```
+### Response:
+
 ```json
 
 {
