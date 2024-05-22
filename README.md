@@ -54,9 +54,9 @@ cd python-backend
 ### Set up a virtual environment:
 
 ```bash
-py -m venv venv
+python -m venv venv
 ```
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+# on Macosa\Linux 'source venv/bin/activate'  # On Windows, use `venv\Scripts\activate`
 
 ### Install dependencies:
 
