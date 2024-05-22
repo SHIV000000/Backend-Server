@@ -56,7 +56,7 @@ cd python-backend
 ```bash
 python -m venv venv
 ```
-###  on Macos\Linux, use  'source venv/bin/activate'  # On Windows, use `venv\Scripts\activate`
+###  on Macos\Linux, use  `source venv/bin/activate`  # On Windows, use `venv\Scripts\activate`
 
 ### Install dependencies:
 
